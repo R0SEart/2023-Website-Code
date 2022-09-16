@@ -5,7 +5,7 @@
 		body {
 					background-color: #6765db;
 					color: #020030;
-					width: 50%;
+					width: 80%;
 					margin: 20px auto;
 					padding: 20px;
 				
@@ -94,7 +94,7 @@
 		}
 		
 		.col {
-			border: 2px outset #3b32b5;
+			border: 10px outset #937dff;
 			margin: 20px;
 			padding:20px;
 		}
@@ -108,7 +108,76 @@
 			text-align: center;
 		}
 
+		.single_page {
+			width: 100%;
+		}
+
+		table img {
+			width: 100%;
+
+		}
+
 		table {
 			border: 8px inset #6256bf;
 
 		}
+
+		@media (min-width: 768px) {
+			
+
+			nav li a {
+			display: inline-block;
+			background-color: #6765db;
+			width: 200px;
+			height: 50px;
+			line-height: 50px;
+			font-size: 1.4em;
+			font-weight: bold;
+			color: #c9a4ff;
+			text-decoration: none;
+			border: 10px outset #937dff;
+			margin: 0 10px;
+
+		}
+			main {
+				display: flex;
+			}
+
+			section,
+			aside {
+				padding: 10px;
+				margin: 10px;
+				border: 10px outset #937dff;
+
+			}
+
+			section {
+				width: 100%;
+			}
+
+			aside {
+				width: 30%;
+				
+			}
+		}
+
+		.col img {
+			width=75%;
+		}
+
+		.button {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#lower_area {
+			display: flex;
+		}
+
+		table img {
+			width: 100%;
+
+		}
+
+		
+
