@@ -9,6 +9,7 @@
 					margin: 20px auto;
 					padding: 20px;
 					font-family: "BIZ UDMincho Medium", monospace, serif;
+
 				}
 				
 		img {
@@ -78,6 +79,7 @@
 			border: 12px outset #937dff;
 			margin: 20px;
 			padding:20px;
+			font-size: 1.4em
 
 		}
 
